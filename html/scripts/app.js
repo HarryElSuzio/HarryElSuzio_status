@@ -21,12 +21,20 @@
 					'<div class="agua">' +
                      '<p>💧</p>' +
                     '</div>' +
+					'<div class="cagar">' +
+					           '<p>💩</p>' +
+                    '</div>' +
+					'<div class="mear">' +
+										 '<p>😭</p>' +
+										'</div>' +
 				'<div class="status">' +
 					'<div class="status_inner">' +
 					 '<div class="status_val"></div>' +
 					'</div>' +
-				'</div>');
-			
+				'</div>' +
+			'</div>' +
+		'</div>');
+
 			statusDiv.find('.status_inner')
 				.css({'border' : '2px solid ' + status[i].color})
 			;
@@ -46,7 +54,7 @@
 	window.onData = function(data){
 
 		if(data.update){
-			
+
 			status.length = 0;
 
 			for(let i=0; i<data.status.length; i++)

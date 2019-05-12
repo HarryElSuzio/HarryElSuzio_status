@@ -1,4 +1,4 @@
-/*R-editado e adicionado por Bebiano86 ( Administrador SeyfertGaming), por favor não me retirem os créditos da edição*/
+﻿/*R-editado e adicionado por Bebiano86 ( Administrador SeyfertGaming), por favor não me retirem os créditos da edição*/
 /*R-editado e adicionado por Bebiano86 (Administrador SeyfertGaming), por favor não me retirem os créditos da edição*/
 
 
@@ -15,7 +15,7 @@
 .comida p {
     margin: 0;
     position: absolute;
-    top: 20%;
+    top: 10%;
     right: 35%;
 	font-size: 16px;
 	font-weight: bold;
@@ -30,7 +30,37 @@
 .agua p {
     margin: 0;
     position: absolute;
-    top: 68.5%;
+    top: 35%;
+    right: 37%;
+	font-size: 16px;
+	font-weight: bold;
+	color: black;
+	font-variant: small-caps;
+	letter-spacing: 3px;
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+/*Texto da cagar*/
+.cagar p {
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 35%;
+	font-size: 16px;
+	font-weight: bold;
+	color: black;
+	font-variant: small-caps;
+	letter-spacing: 3px;
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+/*Texto da mear*/
+.mear p {
+    margin: 0;
+    position: absolute;
+    top: 85%;
     left: 37%;
 	font-size: 16px;
 	font-weight: bold;
