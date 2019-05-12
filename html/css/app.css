@@ -1,12 +1,12 @@
-﻿/*R-editado e adicionado por Bebiano86 ( Administrador SeyfertGaming), por favor não me retirem os créditos da edição*/
+/*R-editado e adicionado por Bebiano86 ( Administrador SeyfertGaming), por favor não me retirem os créditos da edição*/
 /*R-editado e adicionado por Bebiano86 (Administrador SeyfertGaming), por favor não me retirem os créditos da edição*/
 
 
 #status_list {
 	position: absolute;
 	left   : 380px; /*posição do status*/
-	bottom : 1%;
-	width  : 2%; /*comprimento das barras*/
+	bottom : 3%;
+	width  : 4%; /*comprimento das barras*/
 	transform: rotateZ(270deg); /*rotação das barras*/
 	opacity: 0.9; /*transparência*/
 }
@@ -15,8 +15,8 @@
 .comida p {
     margin: 0;
     position: absolute;
-    top: 3%;
-    right: 27%;
+    top: 20%;
+    right: 35%;
 	font-size: 16px;
 	font-weight: bold;
 	color: black;
@@ -30,38 +30,8 @@
 .agua p {
     margin: 0;
     position: absolute;
-    top: 28%;
-    right: 27%;
-	font-size: 16px;
-	font-weight: bold;
-	color: black;
-	font-variant: small-caps;
-	letter-spacing: 3px;
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-}
-
-/*Texto da cagar*/
-.cagar p {
-    margin: 0;
-    position: absolute;
-    top: 53%;
-    right: 27%;
-	font-size: 16px;
-	font-weight: bold;
-	color: black;
-	font-variant: small-caps;
-	letter-spacing: 3px;
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-}
-
-/*Texto da mear*/
-.mear p {
-    margin: 0;
-    position: absolute;
-    top: 78%;
-    right: 27%;
+    top: 68.5%;
+    left: 37%;
 	font-size: 16px;
 	font-weight: bold;
 	color: black;
