@@ -3,8 +3,9 @@
 
 
 #status_list {
-	position: absolute;
-	left   : 380px; /*posição do status*/
+	position: relative;
+    top    : -10%;  /*posição do status*/
+	left   : 120px; /*posição do status*/
 	bottom : 3%;
 	width  : 4%; /*comprimento das barras*/
 	transform: rotateZ(270deg); /*rotação das barras*/
